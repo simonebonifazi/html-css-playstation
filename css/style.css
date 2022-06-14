@@ -79,3 +79,22 @@ header .btn-secondary {
 #jumbotron .btn-danger {
     background-color: #CD3D0F;
 }
+
+/* select preview */
+
+#select-preview img {
+    max-width: 100%;
+}
+
+/* play station 5 overview */
+
+#ps5-overview .active {
+    border-bottom: 1px solid #0072CE;
+}
+
+#ps5-overview .fa-trademark {
+    font-size: xx-small;
+    position: relative;
+    bottom: 2px;
+    right: 4px;
+}
