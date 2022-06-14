@@ -29,3 +29,53 @@
 /* layout */
 
 /* TODO: CAPIRE COME CENTRARE IMG E DESCRIZIONE SEZIONE ITTAKESTWO */
+
+/* header */
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+header #logo-sony {
+    width: 5rem;
+}
+
+header .fa-bars {
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    color: #737373;
+    padding: 10px;
+
+}
+
+header nav img {
+    height: 2rem;
+}
+
+
+header .btn-secondary {
+    background-color: #363636;
+}
+
+/* jumbotron */
+
+
+#jumbotron {
+    background-image: url("../images/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+    max-height: 100%;
+    color: #fff;
+}
+
+#jumbotron img {
+    max-height: 5rem;
+    margin-top: 6rem;
+}
+
+
+#jumbotron .btn-danger {
+    background-color: #CD3D0F;
+}
