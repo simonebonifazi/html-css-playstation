@@ -50,10 +50,17 @@ header .fa-bars {
 
 }
 
+header ul li {
+    opacity: 0.7;
+}
+
+header ul li:hover {
+    opacity: 1;
+}
+
 header nav img {
     height: 2rem;
 }
-
 
 header .btn-secondary {
     background-color: #363636;
