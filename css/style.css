@@ -105,6 +105,11 @@ header .btn-secondary {
     border-radius: 1rem;
 }
 
+#select-preview figure:hover:not(.active) {
+    transform: translate(0, -35px);
+    transition: transform, 0.3s;
+}
+
 /* play station 5 overview */
 
 #ps5-overview .active {
