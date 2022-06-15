@@ -56,6 +56,7 @@ header ul li {
 
 header ul li:hover {
     opacity: 1;
+    cursor: pointer;
 }
 
 header nav img {
@@ -113,6 +114,16 @@ header .btn-secondary {
 /* play station 5 overview */
 
 #ps5-overview .active {
+    border-bottom: 2px solid #0072CE;
+}
+
+#ps5-overview #hover-effect figure:not(.active) {
+    opacity: 0.75;
+}
+
+#ps5-overview #hover-effect figure:hover:not(.active) {
+    opacity: 1;
+    cursor: pointer;
     border-bottom: 2px solid #0072CE;
 }
 
